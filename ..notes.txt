@@ -1,0 +1,12 @@
+npm install -g @angular/cli
+
+ng new angular-sandbox
+
+git init
+git add .
+git commit -m "First commit"
+git branch -M main
+git remote add origin https://github.com/andypike7/angular-sandbox.git
+git push -u origin main
+
+npm run serve
